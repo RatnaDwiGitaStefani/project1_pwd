@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang ="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Latihan 1 - HTML5</title>
+    </head>
+    <body>        
+        <header>
+            <h1>Selamat Datang</h1>
+            <p>Belajar elemen semantik HTML5</p>
+        </header>
+        <nav>
+            <a href="#tentang">Tentang</a> |
+            <a href="#kursus">Kursus</a> |
+            <a href="#kontak">kontak</a> |
+            <a href="#pendaftaraan">Pendaftaran</a>
+        </nav>
+        <section id="tentang">
+            <h2>Tentang Halaman Ini</h2>
+            <p>Ini merupkan section untuk menu Tentang</p>
+        </section>
+        <section id="kursus">
+            <h2>Daftar Kursus</h2>
+            <table border="1">
+                <tr>
+                    <th>No</th>
+                    <th>Nama Kursus</th>
+                    <th>Durasi</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Dasar HTML & CSS</td>
+                    <td>4 Minggu</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>JavaScript Fundamental</td>
+                    <td>6 Minggu</td>
+                </tr>
+            </table>
+        </section>
+        <section id="kontak">
+            <h2>Hubungi Kami</h2>
+            <from>
+                <label from="nama">Nama:</label>
+                <input type="nama" id="nama" name="nama">
+                <br>
+            </from>
+            <br>
+            <from>                
+                <label for="email">Email:</label> 
+                <input type="email" id="email" name="email">     
+                <br>                      
+            </from>
+            <br>
+            <from>            
+                <label for="pesan">Pesan:</label>
+                <br>
+                <textarea id="pesan" name="pesan" rows="20" cols="50" style="width: 300px; height: 100px"></textarea>                        
+                <br>
+            </from> 
+            <br>
+            <div>
+                <button type="sumbit">Sumbit</button>
+            </div>        
+        </section>
+        <section id="Pendaftaran">          
+            <h2>Form Pendaftaran Mahasiswa Baru Kampus ABC</h2>  
+            <from>
+                <label from="nama">Nama:</label>
+                <input type="nama" id="nama" name="nama">
+                <br>
+            </from>
+            <br>
+            <from>                
+                <label for="email">Email:</label> 
+                <input type="email" id="email" name="email">     
+                <br>                      
+            </from>
+            <br>         
+            <from>                
+                <label>Tanggal Lahir:</label>
+                <input type="date" name="tanggal" />
+                <br>
+            </from>
+            <br>
+            <from>
+                    <label>Umur:</label>
+                    <input type="number" min="1" max="90" name="umur" />
+                    <br>
+            </from>            
+            <br>
+            <from>
+                    <label>Jenis Kelamin:</label>
+                    <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-Laki </label>
+                    <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan </label>
+                    <br>
+            </from>
+            <br>
+            <from>
+                    <label>Agama:</label>
+                    <select name="agama">
+                        <option value="none">None</option>
+                        <option value="islam">Islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="katolik">Katolik</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="buddha">Buddha</option>
+                        <option value="konghucu">Konghucu</option>
+                    </select>
+                    <br>
+            </from>
+            <br>
+            <from>
+                <label>Pilihan Jurusan:</label>
+                <br>
+                <label><input type="radio" name="pilihan_jurusan" value="sistem_teknologi_informasi"/>Sistem Teknologi Informasi</label>
+                <br>
+                <label><input type="radio" name="pilihan_jurusan" value="bisnis_digital"/>Bisnis Digital</label>
+                <br>
+                <label><input type="radio" name="pilihan_jurusan" value="kewirausahaan"/>Kewirausahaan</label>
+            </from>
+            <br>
+            <from>
+                <br>
+                <label>Biografi:</label>
+                <br>
+                <textarea name="biografi"></textarea>
+            </from>
+            <br> 
+            <from>     
+                <br>       
+                <label for="pesan">Alasan Memilih Jurusan:</label>
+                <br>
+                <textarea id="pesan" name="pesan" rows="20" cols="50" style="width: 300px; height: 100px"></textarea>                        
+                <br>
+            </from>
+            <br>
+            <from>
+                <label>Hobi:</label>
+                <br>
+                <input type="checkbox" name="hobi" /> Membaca
+                <br>
+                <input type="checkbox" name="hobi" /> Menulis
+                <br>
+                <input type="checkbox" name="hobi" /> Olahrga
+                <br>
+                <input type="checkbox" name="hobi" /> Main Game
+                <br>
+                <input type="checkbox" name="hobi" /> Lain-lain <input type="hobi" id="hobi" name="hobi">
+            </from>       
+        </section>
+        <br>
+            <div>
+                <button type="sumbit">Sumbit</button>
+            </div>        
+        <footer>
+            <p>&copy; 2025 oleh Ratna Dwi Gita Stefani</p>
+        </footer>          
+    </body>
+</html>
+
